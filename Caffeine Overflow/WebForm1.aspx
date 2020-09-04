@@ -13,7 +13,10 @@
             <asp:Label ID="Label2" runat="server" Text="Add a label with your name "></asp:Label>
         <br />
         <br />
-        Christian Guzman Was here...</form>
+        Christian Guzman Was here...
         </div>
+
+    </form>
+        
         </body>
 </html>
