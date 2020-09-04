@@ -15,7 +15,5 @@
         <br />
         Christian Guzman Was here...</form>
         </div>
-        <asp:Label ID="Label2" runat="server" Text="Add a label with your name "></asp:Label>
-        k;lredkg;lsdkrfgy;lksd;flgkh;l&#39;sfdgkhdfg</form>
-</body>
+        </body>
 </html>
