@@ -11,7 +11,7 @@
             width: 166px;
         }
         .auto-style6 {
-            width: 76px;
+            width: 90px;
         }
         .auto-style7 {
             width: 166px;
@@ -26,7 +26,7 @@
             height: 23px;
         }
         .auto-style11 {
-            width: 76px;
+            width: 90px;
             height: 23px;
         }
         .auto-style13 {
@@ -45,7 +45,7 @@
             height: 24px;
         }
         .auto-style18 {
-            width: 76px;
+            width: 90px;
             height: 24px;
         }
         .auto-style20 {
@@ -61,7 +61,7 @@
             height: 26px;
         }
         .auto-style24 {
-            width: 76px;
+            width: 90px;
             height: 26px;
         }
         .auto-style25 {
@@ -116,24 +116,24 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style8">
+            <td class="auto-style4"></td>
+            <td class="auto-style3">
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             </td>
-            <td class="auto-style31">
+            <td class="auto-style32">
                 <input id="radio1" name="radio1" value="Add1" type="radio"><input id="radio2" name="radio1" value="sub1" type="radio"></td>
-            <td class="auto-style10">
+            <td class="auto-style2">
                 <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
             </td>
-            <td class="auto-style11">
+            <td class="auto-style6">
                 <asp:Button ID="Button1" runat="server" Text="ROLL" />
             </td>
-            <td class="auto-style25">
+            <td class="auto-style26">
                 <asp:TextBox ID="TextBox17" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style4"></td>
             <td class="auto-style3">
                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             </td>
@@ -218,7 +218,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style4"></td>
             <td class="auto-style3">
                 <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
             </td>
