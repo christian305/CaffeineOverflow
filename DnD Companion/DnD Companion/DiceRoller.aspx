@@ -100,6 +100,30 @@
             width: 174px;
             height: 24px;
         }
+        .auto-style35 {
+            width: 166px;
+            height: 50px;
+        }
+        .auto-style36 {
+            width: 123px;
+            height: 50px;
+        }
+        .auto-style37 {
+            width: 174px;
+            height: 50px;
+        }
+        .auto-style38 {
+            width: 128px;
+            height: 50px;
+        }
+        .auto-style39 {
+            width: 90px;
+            height: 50px;
+        }
+        .auto-style40 {
+            width: 129px;
+            height: 50px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -112,28 +136,19 @@
             <td class="auto-style11">Roll</td>
             <td class="auto-style25">Result</td>
             <td rowspan="9" class="auto-style29">
-                <asp:TextBox ID="TextBox25" runat="server" Height="376px" Width="237px"></asp:TextBox>
+                <asp:TextBox ID="TextBox25" runat="server" Height="376px" Width="237px">These are the results: </asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style4"></td>
-            <td class="auto-style3">
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            </td>
-            <td class="auto-style32">
-                <input id="radio1" name="radio1" value="Add1" type="radio"><input id="radio2" name="radio1" value="sub1" type="radio"></td>
-            <td class="auto-style2">
-                <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
-            </td>
-            <td class="auto-style6">
-                <asp:Button ID="Button1" runat="server" Text="ROLL" />
-            </td>
-            <td class="auto-style26">
-                <asp:TextBox ID="TextBox17" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
-            </td>
+            <td class="auto-style35">&nbsp;</td>
+            <td class="auto-style36"><asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox></td>
+            <td class="auto-style37"><input id="radio1" name="radio1" value="Add1" type="radio"><input id="radio2" name="radio1" value="sub1" type="radio"></td>
+            <td class="auto-style38"><asp:TextBox ID="TextBox9" runat="server" ></asp:TextBox></td>
+            <td class="auto-style39"><asp:Button ID="Button1" runat="server" Text="ROLL" OnClick="Button1_Click" /></td>
+            <td class="auto-style40"><asp:TextBox ID="TextBox17" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox></td>
         </tr>
         <tr>
-            <td class="auto-style4"></td>
+            <td class="auto-style4">&nbsp;</td>
             <td class="auto-style3">
                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             </td>
@@ -143,7 +158,7 @@
                 <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:Button ID="Button2" runat="server" Text="ROLL" />
+                <asp:Button ID="Button2" runat="server" Text="ROLL" OnClick="Button2_Click" />
             </td>
             <td class="auto-style26">
                 <asp:TextBox ID="TextBox18" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
@@ -160,7 +175,7 @@
                 <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style11">
-                <asp:Button ID="Button3" runat="server" Text="ROLL" />
+                <asp:Button ID="Button3" runat="server" Text="ROLL" OnClick="Button3_Click" />
             </td>
             <td class="auto-style25">
                 <asp:TextBox ID="TextBox19" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
@@ -177,7 +192,7 @@
                 <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style24">
-                <asp:Button ID="Button4" runat="server" Text="ROLL" />
+                <asp:Button ID="Button4" runat="server" Text="ROLL" OnClick="Button4_Click" />
             </td>
             <td class="auto-style27">
                 <asp:TextBox ID="TextBox20" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
@@ -194,7 +209,7 @@
                 <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style18">
-                <asp:Button ID="Button5" runat="server" Text="ROLL" />
+                <asp:Button ID="Button5" runat="server" Text="ROLL" OnClick="Button5_Click" />
             </td>
             <td class="auto-style28">
                 <asp:TextBox ID="TextBox21" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
@@ -211,7 +226,7 @@
                 <asp:TextBox ID="TextBox14" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:Button ID="Button6" runat="server" Text="ROLL" />
+                <asp:Button ID="Button6" runat="server" Text="ROLL" OnClick="Button6_Click" />
             </td>
             <td class="auto-style26">
                 <asp:TextBox ID="TextBox22" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
@@ -228,7 +243,7 @@
                 <asp:TextBox ID="TextBox15" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:Button ID="Button7" runat="server" Text="ROLL" />
+                <asp:Button ID="Button7" runat="server" Text="ROLL" OnClick="Button7_Click" />
             </td>
             <td class="auto-style26">
                 <asp:TextBox ID="TextBox23" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
@@ -247,7 +262,7 @@
                 <asp:TextBox ID="TextBox16" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:Button ID="Button8" runat="server" Text="ROLL" />
+                <asp:Button ID="Button8" runat="server" Text="ROLL" OnClick="Button8_Click" />
             </td>
             <td class="auto-style26">
                 <asp:TextBox ID="TextBox24" runat="server" BorderStyle="None" ReadOnly="True"></asp:TextBox>
