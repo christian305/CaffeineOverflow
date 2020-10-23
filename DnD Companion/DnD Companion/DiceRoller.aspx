@@ -135,7 +135,8 @@
         <tr>
             <td class="auto-style4"></td>
             <td class="auto-style3">
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
+
             </td>
             <td class="auto-style32">
                <input id="radio3" name="radio2" value="Add2" type="radio" class="auto-style13"><input id="radio4" name="radio2" value="sub2" type="radio"></td>
