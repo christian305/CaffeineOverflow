@@ -5,13 +5,43 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            
+            <nav>
+                <asp:Table ID="tblNav" runat="server">
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            <asp:ImageButton ID="ImageButton1" runat="server" />
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:LinkButton ID="btnHome" runat="server">Home</asp:LinkButton>
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:LinkButton ID="btnCharGen" runat="server">Character Generation</asp:LinkButton>
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:LinkButton ID="btnItems" runat="server">Items</asp:LinkButton>
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:LinkButton ID="btnSpells" runat="server">Spells</asp:LinkButton>
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:LinkButton ID="btnMonsters" runat="server">Monsters</asp:LinkButton>
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:LinkButton ID="btnDiceRoll" runat="server">Dice rolling</asp:LinkButton>
+                        </asp:TableCell>
+
+                    </asp:TableRow>
+                </asp:Table>
+            </nav>
             
             
             
