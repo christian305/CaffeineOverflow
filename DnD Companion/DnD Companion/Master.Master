@@ -21,10 +21,10 @@
                             <asp:ImageButton ID="ImageButton1" runat="server" />
                         </asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnHome" runat="server">Home</asp:LinkButton>
+                            <asp:LinkButton ID="btnHome" runat="server" >Home</asp:LinkButton>
                         </asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnCharGen" runat="server">Character Generation</asp:LinkButton>
+                            <asp:LinkButton ID="btnCharGen" runat="server" >Character Generation</asp:LinkButton>
                         </asp:TableCell>
                         <asp:TableCell>
                             <asp:LinkButton ID="btnItems" runat="server">Items</asp:LinkButton>
@@ -36,7 +36,7 @@
                             <asp:LinkButton ID="btnMonsters" runat="server">Monsters</asp:LinkButton>
                         </asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnDiceRoll" runat="server">Dice rolling</asp:LinkButton>
+                            <asp:LinkButton ID="btnDiceRoll" runat="server" PostBackUrl="~/DiceRoller.aspx">Dice rolling</asp:LinkButton>
                         </asp:TableCell>
 
                     </asp:TableRow>

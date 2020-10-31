@@ -86,18 +86,18 @@
             width: 70%;
         }
         .auto-style31 {
-            width: 174px;
+            width: 194px;
             height: 23px;
         }
         .auto-style32 {
-            width: 174px;
+            width: 194px;
         }
         .auto-style33 {
-            width: 174px;
+            width: 194px;
             height: 26px;
         }
         .auto-style34 {
-            width: 174px;
+            width: 194px;
             height: 24px;
         }
         .auto-style35 {
@@ -109,7 +109,7 @@
             height: 50px;
         }
         .auto-style37 {
-            width: 174px;
+            width: 194px;
             height: 50px;
         }
         .auto-style38 {
@@ -141,12 +141,13 @@
         </tr>
         <tr>
             <td class="auto-style35">&nbsp;</td>
-            <td class="auto-style36"><asp:TextBox ID="TextBox1" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox></td>
+            <td class="auto-style36"><asp:TextBox ID="TextBox1" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" OnTextChanged="TextBox1_TextChanged"></asp:TextBox></td>
             <td class="auto-style37"><input id="radio1" name="radio1" value="Add1" type="radio"><input id="radio2" name="radio1" value="sub1" type="radio"></td>
             <td class="auto-style38"><asp:TextBox ID="TextBox9" runat="server"  onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox></td>
             <td class="auto-style39"><asp:Button ID="Button1" runat="server" Text="ROLL" OnClick="Button1_Click" /></td>
             <td class="auto-style40"><asp:TextBox ID="TextBox17" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox></td>
         </tr>
+
         <tr>
             <td class="auto-style4">&nbsp;</td>
             <td class="auto-style3">
