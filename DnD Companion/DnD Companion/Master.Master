@@ -18,27 +18,32 @@
                 <asp:Table ID="tblNav" runat="server">
                     <asp:TableRow>
                         <asp:TableCell>
-                            <asp:ImageButton ID="ImageButton1" runat="server" />
+                               <!--Want to add our logo here and link it to home/default page-->
                         </asp:TableCell>
+                        
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnHome" runat="server">Home</asp:LinkButton>
+                            <asp:LinkButton ID="btnHome" runat="server" PostBackUrl="~/Default.aspx">Home</asp:LinkButton>
                         </asp:TableCell>
+                        <asp:TableCell>&nbsp</asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnCharGen" runat="server">Character Generation</asp:LinkButton>
+                            <asp:LinkButton ID="btnCharGen" runat="server" PostBackUrl="~/CharacterGeneration.aspx">Character Generation</asp:LinkButton>
                         </asp:TableCell>
+                        <asp:TableCell>&nbsp</asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnItems" runat="server">Items</asp:LinkButton>
+                            <asp:LinkButton ID="btnItems" runat="server" PostBackUrl="~/ItemList.aspx">Items</asp:LinkButton>
                         </asp:TableCell>
+                        <asp:TableCell>&nbsp</asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnSpells" runat="server">Spells</asp:LinkButton>
+                            <asp:LinkButton ID="btnSpells" runat="server" PostBackUrl="~/SpellList.aspx">Spells</asp:LinkButton>
                         </asp:TableCell>
+                        <asp:TableCell>&nbsp</asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnMonsters" runat="server">Monsters</asp:LinkButton>
+                            <asp:LinkButton ID="btnMonsters" runat="server" PostBackUrl="~/MonsterList.aspx">Monsters</asp:LinkButton>
                         </asp:TableCell>
+                        <asp:TableCell>&nbsp</asp:TableCell>
                         <asp:TableCell>
-                            <asp:LinkButton ID="btnDiceRoll" runat="server">Dice rolling</asp:LinkButton>
+                            <asp:LinkButton ID="btnDiceRoll" runat="server" PostBackUrl="~/DiceRoller.aspx">Dice rolling</asp:LinkButton>
                         </asp:TableCell>
-
                     </asp:TableRow>
                 </asp:Table>
             </nav>
