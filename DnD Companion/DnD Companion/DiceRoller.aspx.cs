@@ -21,6 +21,7 @@ namespace DnD_Companion
             var generator = new RandomNumber();
             var randomnumber = generator.RandomNumberGenerator(1, 5);
 
+<<<<<<< Updated upstream
             
             int roll = 0;
 
@@ -50,6 +51,26 @@ namespace DnD_Companion
             {
 
             }
+=======
+            TextBox17.Text = (randomnumber + (Convert.ToInt32(TextBox1.Text.Trim())) + (Convert.ToInt32(TextBox9.Text.Trim()))).ToString();
+
+           /*var generator = new RandomNumber();
+             var randomnumber = generator.RandomNumberGenerator(1, 5);
+
+             if (TextBox1.Text != "")
+             {
+                 TextBox17.Text = (randomnumber
+                     + (Convert.ToInt32(TextBox1.Text.Trim()))
+                     + (Convert.ToInt32(TextBox9.Text.Trim()))).ToString();
+             }
+
+             int i = 0;
+             string nbr = TextBox1.Text;
+
+                 var final = Convert.ToInt32(TextBox9) + Convert.ToInt32(randomnumber);
+                 TextBox17.Text = Convert.ToString(randomnumber);
+             */
+>>>>>>> Stashed changes
         }
 
         protected void Button2_Click(object sender, EventArgs e)
