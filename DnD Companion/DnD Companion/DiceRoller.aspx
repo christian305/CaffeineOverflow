@@ -107,6 +107,7 @@
         .auto-style36 {
             width: 123px;
             height: 50px;
+            margin-left: 40px;
         }
         .auto-style37 {
             width: 194px;
@@ -136,11 +137,11 @@
             <td class="auto-style11">Roll</td>
             <td class="auto-style25">Result</td>
             <td rowspan="9" class="auto-style29">
-                <asp:TextBox ID="TextBox25" runat="server" Height="376px" Width="237px">These are the results: </asp:TextBox>
+                <asp:TextBox ID="TextBox25" runat="server" Height="376px" Width="237px" TextMode="MultiLine">These are the results: </asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style35">Dice 4</td>
+            <td class="auto-style35">d4</td>
             <td class="auto-style36"><asp:TextBox ID="TextBox1" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" OnTextChanged="TextBox1_TextChanged"></asp:TextBox></td>
             <td class="auto-style37"><input id="radio1" name="radio1" value="Add1" type="radio"><input id="radio2" name="radio1" value="sub1" type="radio"></td>
             <td class="auto-style38"><asp:TextBox ID="TextBox9" runat="server"  onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" MaxLength="3"></asp:TextBox></td>
@@ -149,7 +150,7 @@
         </tr>
 
         <tr>
-            <td class="auto-style4">Dice 6</td>
+            <td class="auto-style4">d6</td>
             <td class="auto-style3">
                 <asp:TextBox ID="TextBox2" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" MaxLength="3"></asp:TextBox>
 
@@ -167,7 +168,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style7">Dice&nbsp; 8</td>
+            <td class="auto-style7">d8</td>
             <td class="auto-style8">
                 <asp:TextBox ID="TextBox3" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
             </td>
@@ -184,7 +185,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style20">Dice 10</td>
+            <td class="auto-style20">d10</td>
             <td class="auto-style21">
                 <asp:TextBox ID="TextBox4" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
             </td>
@@ -201,7 +202,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style14">Dice 12</td>
+            <td class="auto-style14">d12</td>
             <td class="auto-style15">
                 <asp:TextBox ID="TextBox5" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
             </td>
@@ -218,7 +219,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style4">Dice 20</td>
+            <td class="auto-style4">d20</td>
             <td class="auto-style3">
                 <asp:TextBox ID="TextBox6" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
             </td>
@@ -235,7 +236,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style4">Dice 100</td>
+            <td class="auto-style4">d100</td>
             <td class="auto-style3">
                 <asp:TextBox ID="TextBox7" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
             </td>
@@ -253,9 +254,10 @@
         </tr>
         <tr>
             <td class="auto-style4">
-                &nbsp;</td>
+                <asp:TextBox ID="TextBox26" runat="server"></asp:TextBox>
+            </td>
             <td class="auto-style3">
-                <asp:TextBox ID="TextBox8" runat="server" BorderStyle="None" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
+                <asp:TextBox ID="TextBox8" runat="server" BorderStyle="Solid" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);"></asp:TextBox>
             </td>
             <td class="auto-style32">
                 <input id="radio15" name="radio8" value="Add8" type="radio"><input id="radio16" name="radio8" value="sub8" type="radio"></td>

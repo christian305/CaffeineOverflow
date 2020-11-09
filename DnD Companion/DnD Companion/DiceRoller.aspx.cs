@@ -24,7 +24,7 @@ namespace DnD_Companion
             
             int roll = 0;
 
-            if (roll <= Convert.ToInt32(TextBox1.Text.Trim())) 
+            if (TextBox1.Text != "") 
             {
                 if (Convert.ToInt32(TextBox1.Text.Trim()) <= 999) 
                 {
@@ -42,13 +42,10 @@ namespace DnD_Companion
                 }
 
                 roll++;
-            }
-            else if (TextBox1.Text == "")
-            {
-                TextBox25.Text = "Please Enter a Number to use this button";            }
+            }            
             else
             {
-
+                TextBox17.Text = (Convert.ToString(randomnumber));
             }
         }
 
@@ -61,6 +58,11 @@ namespace DnD_Companion
             {
                 TextBox18.Text = (Convert.ToString(randomnumber));
             }
+            else
+            {
+                TextBox18.Text = (Convert.ToString(randomnumber));
+
+            }
         }
 
         protected void Button3_Click(object sender, EventArgs e)
@@ -71,6 +73,11 @@ namespace DnD_Companion
             if (TextBox3.Text != "")
             {
                 TextBox19.Text = (Convert.ToString(randomnumber));
+            }
+            else
+            {
+                TextBox19.Text = (Convert.ToString(randomnumber));
+
             }
         }
 
@@ -83,6 +90,11 @@ namespace DnD_Companion
             {
                 TextBox20.Text = (Convert.ToString(randomnumber));
             }
+            else
+            {
+                TextBox20.Text = (Convert.ToString(randomnumber));
+
+            }
         }
 
         protected void Button5_Click(object sender, EventArgs e)
@@ -93,6 +105,11 @@ namespace DnD_Companion
             if (TextBox5.Text != "")
             {
                 TextBox21.Text = (Convert.ToString(randomnumber));
+            }
+            else
+            {
+                TextBox21.Text = (Convert.ToString(randomnumber));
+
             }
         }
 
@@ -105,25 +122,61 @@ namespace DnD_Companion
             {
                 TextBox22.Text = (Convert.ToString(randomnumber));
             }
+            else
+            {
+                TextBox22.Text = (Convert.ToString(randomnumber));
+
+            }
         }
 
         protected void Button7_Click(object sender, EventArgs e)
         {
+            
             var generator = new RandomNumber();
             var randomnumber = generator.RandomNumberGenerator(1, 101);
 
+            int count = 0;
+            int i = 0;
+
             if (TextBox7.Text != "")
             {
+                int NBR1 = Convert.ToInt32(TextBox7.Text.Trim());
+                int[] array1 = new int[NBR1];
+
+                if (Convert.ToInt32(TextBox7.Text.Trim()) < 999)
+                {
+                    foreach (int number in array1)
+                    {
+                        Convert.ToString(randomnumber);
+                        count++;
+                    }
+                    
+                    TextBox25.Text = TextBox25.Text + " " + Convert.ToString(randomnumber);
+                }
+                else 
+                {
+                    TextBox25.Text = TextBox25.Text + " Choose a Smaller Number";
+                }
+            }
+            else
+            {
                 TextBox23.Text = (Convert.ToString(randomnumber));
+
             }
         }
 
         protected void Button8_Click(object sender, EventArgs e)
         {
+
+            int dice = Convert.ToInt32(TextBox26.Text);
             var generator = new RandomNumber();
-            var randomnumber = generator.RandomNumberGenerator(1, 101);
+            var randomnumber = generator.RandomNumberGenerator(1, (dice + 1));
 
             if (TextBox8.Text != "")
+            {            
+                TextBox24.Text = (Convert.ToString(randomnumber));
+            }
+            else
             {
                 TextBox24.Text = (Convert.ToString(randomnumber));
             }
