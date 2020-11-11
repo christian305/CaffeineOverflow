@@ -201,32 +201,32 @@ namespace DnD_Companion
 
         protected void Button9_Click(object sender, EventArgs e)
         {
-            TextBox1.Text = "";
-            TextBox2.Text = "";
-            TextBox3.Text = "";
-            TextBox4.Text = "";
-            TextBox5.Text = "";
-            TextBox6.Text = "";
-            TextBox7.Text = "";
-            TextBox8.Text = "";
-            TextBox9.Text = ""; 
-            TextBox10.Text = "";
-            TextBox11.Text = ""; 
-            TextBox12.Text = "";
-            TextBox13.Text = "";
-            TextBox14.Text = "";
-            TextBox15.Text = ""; 
-            TextBox16.Text = "";
-            TextBox17.Text = "";
-            TextBox18.Text = "";
-            TextBox19.Text = ""; 
-            TextBox20.Text = "";
-            TextBox21.Text = "";
-            TextBox22.Text = "";
-            TextBox23.Text = "";
-            TextBox24.Text = "";
-            TextBox25.Text = "";
-            TextBox26.Text = "";
+                TextBox1.Text = "";
+                TextBox2.Text = "";
+                TextBox3.Text = "";
+                TextBox4.Text = "";
+                TextBox5.Text = "";
+                TextBox6.Text = "";
+                TextBox7.Text = "";
+                TextBox8.Text = "";
+                TextBox9.Text = "";
+                TextBox10.Text = "";
+                TextBox11.Text = "";
+                TextBox12.Text = "";
+                TextBox13.Text = "";
+                TextBox14.Text = "";
+                TextBox15.Text = "";
+                TextBox16.Text = "";
+                TextBox17.Text = "";
+                TextBox18.Text = "";
+                TextBox19.Text = "";
+                TextBox20.Text = "";
+                TextBox21.Text = "";
+                TextBox22.Text = "";
+                TextBox23.Text = "";
+                TextBox24.Text = "";
+                TextBox25.Text = "";
+                TextBox26.Text = "";
         }
     }
     class RandomNumber

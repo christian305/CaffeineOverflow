@@ -142,7 +142,9 @@
             <td class="auto-style25">Result</td>
             <td rowspan="9" class="auto-style29">
                 <asp:TextBox ID="TextBox25" runat="server" Height="305px" Width="237px" TextMode="MultiLine">These are the results: </asp:TextBox>
-                <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" Text="reset" Width="242px" />
+                
+                <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" Text="Button" Width="239px" />
+                
             </td>
         </tr>
         <tr>
