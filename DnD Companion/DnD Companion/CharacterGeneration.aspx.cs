@@ -13,5 +13,22 @@ namespace DnD_Companion
         {
 
         }
+
+        protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+        {
+            MultiView1.ActiveViewIndex = Int32.Parse(e.Item.Value);
+
+            for (int i = 0; i < Menu1.Items.Count; i++)
+            {
+                if (i == Int32.Parse(e.Item.Value))
+                {
+                    Menu1.Items[i].ImageUrl = "selectedtab.gif";
+                }
+                else
+                {
+                    Menu1.Items[i].ImageUrl = "unselectedtab.gif";
+                }
+            }
+        }
     }
 }
