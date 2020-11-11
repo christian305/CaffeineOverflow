@@ -11,6 +11,7 @@ namespace DnD_Companion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Page.Header.Title = "Spells";
             /*  if (IsPostBack == true && DropDownList1.Items.Count < 40)
               {
                   SqlDataSource1.Select(DataSourceSelectArguments.Empty);

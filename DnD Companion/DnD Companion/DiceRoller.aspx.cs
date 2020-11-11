@@ -14,6 +14,8 @@ namespace DnD_Companion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Page.Header.Title = "Dice Roller";
+
             TextBox17.Text = "0";
             TextBox18.Text = "0";
             TextBox19.Text = "0";
