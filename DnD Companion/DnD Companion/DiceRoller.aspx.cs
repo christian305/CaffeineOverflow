@@ -151,11 +151,13 @@ namespace DnD_Companion
 
                 if (Convert.ToInt32(TextBox7.Text.Trim()) < 999)
                 {
+                   // if (RadioButton13.Checked)
                     foreach (int number in array1)
                     {
                         Convert.ToString(randomnumber);
                         count++;
                         TextBox23.Text = Convert.ToString(Convert.ToString((Convert.ToInt32(TextBox23.Text) + (randomnumber))));
+                        TextBox25.Text = TextBox23.Text + "+" + TextBox25.Text ;
                     }
                     
                     if (TextBox15.Text != "")
