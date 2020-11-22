@@ -14,41 +14,46 @@ namespace DnD_Companion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Page.Header.Title = "Dice Roller";
 
+            TextBox17.Text = "0";
+            TextBox18.Text = "0";
+            TextBox19.Text = "0";
+            TextBox20.Text = "0";
+            TextBox21.Text = "0";
+            TextBox22.Text = "0";
+            TextBox23.Text = "0";
+            TextBox24.Text = "0";
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
             var generator = new RandomNumber();
             var randomnumber = generator.RandomNumberGenerator(1, 5);
+            int count = 0;
+            int i = 0;
 
-            
-            int roll = 0;
-
-            if (roll <= Convert.ToInt32(TextBox1.Text.Trim())) 
+            if (TextBox1.Text != "")
             {
-                if (Convert.ToInt32(TextBox1.Text.Trim()) <= 999) 
-                {
-                    TextBox17.Text = Convert.ToString(randomnumber);
-                    int number1 = randomnumber;
+                int NBR1 = Convert.ToInt32(TextBox1.Text.Trim());
+                int[] array1 = new int[NBR1];
 
-                    if (Convert.ToInt32(TextBox1.Text.Trim()) <= 999) 
+                if (Convert.ToInt32(TextBox1.Text.Trim()) < 999)
+                {
+                    foreach (int number in array1)
                     {
-                        TextBox17.Text = (Convert.ToString(randomnumber) + number1);
-                    } 
+                        Convert.ToString(randomnumber);
+                        count++;
+                        TextBox17.Text = Convert.ToString(Convert.ToString((Convert.ToInt32(TextBox17.Text) + (randomnumber))));
+                    }
                 }
-                else 
+                else
                 {
-                        TextBox25.Text = TextBox25.Text + "Please Write a Number less than 999"; 
+                    TextBox25.Text = TextBox25.Text + " Choose a Smaller Number";
                 }
-
-                roll++;
             }
-            else if (TextBox1.Text == "")
-            {
-                TextBox25.Text = "Please Enter a Number to use this button";            }
             else
             {
-
+                TextBox17.Text = (Convert.ToString(randomnumber));
             }
         }
 
@@ -61,6 +66,11 @@ namespace DnD_Companion
             {
                 TextBox18.Text = (Convert.ToString(randomnumber));
             }
+            else
+            {
+                TextBox18.Text = (Convert.ToString(randomnumber));
+
+            }
         }
 
         protected void Button3_Click(object sender, EventArgs e)
@@ -71,6 +81,11 @@ namespace DnD_Companion
             if (TextBox3.Text != "")
             {
                 TextBox19.Text = (Convert.ToString(randomnumber));
+            }
+            else
+            {
+                TextBox19.Text = (Convert.ToString(randomnumber));
+
             }
         }
 
@@ -83,6 +98,11 @@ namespace DnD_Companion
             {
                 TextBox20.Text = (Convert.ToString(randomnumber));
             }
+            else
+            {
+                TextBox20.Text = (Convert.ToString(randomnumber));
+
+            }
         }
 
         protected void Button5_Click(object sender, EventArgs e)
@@ -93,6 +113,11 @@ namespace DnD_Companion
             if (TextBox5.Text != "")
             {
                 TextBox21.Text = (Convert.ToString(randomnumber));
+            }
+            else
+            {
+                TextBox21.Text = (Convert.ToString(randomnumber));
+
             }
         }
 
@@ -105,14 +130,51 @@ namespace DnD_Companion
             {
                 TextBox22.Text = (Convert.ToString(randomnumber));
             }
+            else
+            {
+                TextBox22.Text = (Convert.ToString(randomnumber));
+
+            }
         }
 
         protected void Button7_Click(object sender, EventArgs e)
         {
             var generator = new RandomNumber();
             var randomnumber = generator.RandomNumberGenerator(1, 101);
+            int count = 0;
+            int i = 0;
 
             if (TextBox7.Text != "")
+            {
+                int NBR1 = Convert.ToInt32(TextBox7.Text.Trim());
+                int[] array1 = new int[NBR1];
+
+                if (Convert.ToInt32(TextBox7.Text.Trim()) < 999)
+                {
+                   // if (RadioButton13.Checked)
+                    foreach (int number in array1)
+                    {
+                        Convert.ToString(randomnumber);
+                        count++;
+                        TextBox23.Text = Convert.ToString(Convert.ToString((Convert.ToInt32(TextBox23.Text) + (randomnumber))));
+                        TextBox25.Text = TextBox23.Text + "+" + TextBox25.Text ;
+                    }
+                    
+                    if (TextBox15.Text != "")
+                    {
+                        TextBox23.Text = Convert.ToString(Convert.ToInt32(TextBox23.Text) + Convert.ToInt32(TextBox15.Text));
+                    }
+                    else 
+                    {
+                        
+                    } 
+                }
+                else 
+                {
+                    TextBox25.Text = TextBox25.Text + " Choose a Smaller Number";
+                }
+            }
+            else
             {
                 TextBox23.Text = (Convert.ToString(randomnumber));
             }
@@ -120,10 +182,16 @@ namespace DnD_Companion
 
         protected void Button8_Click(object sender, EventArgs e)
         {
+
+            int dice = Convert.ToInt32(TextBox26.Text);
             var generator = new RandomNumber();
-            var randomnumber = generator.RandomNumberGenerator(1, 101);
+            var randomnumber = generator.RandomNumberGenerator(1, (dice + 1));
 
             if (TextBox8.Text != "")
+            {            
+                TextBox24.Text = (Convert.ToString(randomnumber));
+            }
+            else
             {
                 TextBox24.Text = (Convert.ToString(randomnumber));
             }
@@ -133,6 +201,36 @@ namespace DnD_Companion
         {
 
             
+        }
+
+        protected void Button9_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text = "";
+            TextBox2.Text = "";
+            TextBox3.Text = "";
+            TextBox4.Text = "";
+            TextBox5.Text = "";
+            TextBox6.Text = "";
+            TextBox7.Text = "";
+            TextBox8.Text = "";
+            TextBox9.Text = ""; 
+            TextBox10.Text = "";
+            TextBox11.Text = ""; 
+            TextBox12.Text = "";
+            TextBox13.Text = "";
+            TextBox14.Text = "";
+            TextBox15.Text = ""; 
+            TextBox16.Text = "";
+            TextBox17.Text = "";
+            TextBox18.Text = "";
+            TextBox19.Text = ""; 
+            TextBox20.Text = "";
+            TextBox21.Text = "";
+            TextBox22.Text = "";
+            TextBox23.Text = "";
+            TextBox24.Text = "";
+            TextBox25.Text = "";
+            TextBox26.Text = "";
         }
     }
     class RandomNumber
