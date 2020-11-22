@@ -3,356 +3,323 @@
     <style type="text/css">
         .auto-style4 {
             margin-left: 240px;
-            width: 20px;
+            width: 149px;
             height: 3px;
         }
         .auto-style8 {
-            width: 1129px;
-            height: 967px;
+            width: 1132px;
+            height: 556px;
             margin-right: 0px;
         }
-        .auto-style22 {
-            width: 20px;
-            height: 62px;
-        }
-        .auto-style26 {
-            width: 20px;
-            height: 34px;
-        }
-        .auto-style28 {
-            width: 20px;
-            height: 35px;
-        }
         .auto-style42 {
-            width: 1130px;
-            height: 394px;
-        }
-        .auto-style43 {
-            width: 277px;
-            height: 62px;
-        }
-        .auto-style57 {
-            width: 186px;
-            height: 11px;
-        }
-        .auto-style58 {
-            width: 20px;
-            height: 11px;
-        }
-        .auto-style60 {
-            width: 20px;
-            height: 15px;
-        }
-        .auto-style63 {
-            width: 186px;
-            height: 15px;
+            width: 1131px;
+            height: 289px;
         }
         .auto-style66 {
-            width: 20px;
+            width: 149px;
             height: 5px;
-        }
-        .auto-style69 {
-            width: 186px;
-            height: 5px;
-        }
-        .auto-style70 {
-            width: 20px;
-            height: 18px;
-        }
-        .auto-style73 {
-            width: 186px;
-            height: 18px;
-        }
-        .auto-style74 {
-            width: 74px;
-            height: 60px;
-        }
-        .auto-style75 {
-            width: 74px;
-            height: 15px;
-        }
-        .auto-style76 {
-            width: 74px;
-            height: 11px;
-        }
-        .auto-style77 {
-            width: 74px;
-            height: 3px;
-        }
-        .auto-style78 {
-            width: 74px;
-            height: 5px;
-        }
-        .auto-style79 {
-            width: 74px;
-            height: 18px;
-        }
-        .auto-style80 {
-            width: 74px;
-        }
-        .auto-style81 {
-            width: 20px;
-            height: 24px;
-        }
-        .auto-style83 {
-            width: 74px;
-            height: 24px;
-        }
-        .auto-style84 {
-            height: 24px;
-            width: 186px;
-        }
-        .auto-style85 {
-            width: 20px;
-            height: 38px;
-        }
-        .auto-style86 {
-            height: 38px;
         }
         .auto-style88 {
-            width: 277px;
+            width: 177px;
             height: 3px;
         }
         .auto-style89 {
             height: 3px;
         }
-        .auto-style90 {
-            height: 62px;
-        }
-        .auto-style91 {
-            width: 186px;
-        }
-        .auto-style94 {
-            height: 3px;
-            width: 186px;
-        }
-        .auto-style96 {
-            width: 168px;
-            height: 15px;
-        }
-        .auto-style97 {
-            width: 168px;
-            height: 11px;
-        }
         .auto-style98 {
             margin-left: 240px;
-            width: 168px;
+            width: 319px;
             height: 3px;
         }
-        .auto-style99 {
-            width: 168px;
-            height: 5px;
+        .auto-style132 {
+            width: 149px;
+            height: 14px;
         }
-        .auto-style100 {
-            width: 168px;
-            height: 18px;
+        .auto-style139 {
+            width: 149px;
+            height: 8px;
         }
-        .auto-style101 {
-            width: 168px;
-            height: 34px;
+        .auto-style141 {
+            width: 149px;
+            height: 11px;
         }
-        .auto-style102 {
-            width: 168px;
+        .auto-style142 {
+            width: 149px;
+            height: 19px;
+        }
+        .auto-style143 {
+            height: 25px;
+        }
+        .auto-style148 {
+            width: 149px;
+            height: 10px;
+        }
+        .auto-style149 {
+            width: 149px;
+            height: 12px;
+        }
+        .auto-style156 {
+            width: 177px;
+            height: 28px;
+        }
+        .auto-style157 {
+            height: 28px;
+        }
+        .auto-style159 {
+            width: 177px;
             height: 24px;
         }
-        .auto-style103 {
-            width: 168px;
-            height: 35px;
+        .auto-style160 {
+            height: 24px;
         }
-        .auto-style106 {
-            width: 221px;
+        .auto-style171 {
+            width: 177px;
+            height: 25px;
         }
-        .auto-style109 {
-            width: 20px;
-            height: 60px;
+        .auto-style172 {
+            width: 319px;
+            height: 1px;
         }
-        .auto-style110 {
-            width: 168px;
-            height: 60px;
+        .auto-style174 {
+            width: 319px;
+            height: 12px;
         }
-        .auto-style111 {
-            height: 60px;
-            width: 186px;
+        .auto-style175 {
+            width: 319px;
+            height: 5px;
+        }
+        .auto-style176 {
+            width: 149px;
+            height: 1px;
+        }
+        .auto-style178 {
+            width: 149px;
+            height: 4px;
+        }
+        .auto-style179 {
+            width: 319px;
+            height: 4px;
+        }
+        .auto-style181 {
+            width: 149px;
+            height: 2px;
+        }
+        .auto-style182 {
+            width: 319px;
+            height: 2px;
+        }
+        .auto-style183 {
+            width: 149px;
+            height: 25px;
+        }
+        .auto-style184 {
+            width: 130px;
+        }
+        .auto-style192 {
+            width: 319px;
+            height: 14px;
+        }
+        .auto-style193 {
+            height: 8px;
+            width: 319px;
+        }
+        .auto-style194 {
+            width: 319px;
+            height: 10px;
+        }
+        .auto-style195 {
+            width: 319px;
+            height: 11px;
+        }
+        .auto-style196 {
+            height: 19px;
+            width: 319px;
+        }
+        .auto-style197 {
+            height: 25px;
+            width: 319px;
+        }
+        .auto-style198 {
+            width: 18px;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br />
-    <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image1" runat="server" Height="202px" Width="238px" />
-    &nbsp;&nbsp;
-    <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
     <table class="auto-style8">
         <tr>
-            <td aria-multiline="False" aria-sort="none" class="auto-style109" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Name</td>
-            <td class="auto-style110" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td aria-multiline="False" aria-sort="none" class="auto-style176" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Name</td>
+            <td class="auto-style172" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" aria-orientation="horizontal">
                 <asp:Label ID="name_lbl" runat="server"></asp:Label>
             </td>
-            <td class="auto-style74" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">
-                Dex</td>
-            <td class="auto-style111" aria-multiline="True" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="dex_lbl" runat="server" BorderStyle="None"></asp:Label>
+            <td class="auto-style198" aria-multiline="True" style="background-color: #C0C0C0; border-top-style: double; border-bottom-style: double;" draggable="true" rowspan="17">
+        <asp:Image ID="Image1" runat="server" Height="202px" Width="238px" />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
             </td>
-            <td class="auto-style106" aria-multiline="True" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" rowspan="10">
-                <asp:ListBox ID="ListBox1" runat="server" AutoPostBack="True" CssClass="offset-sm-0" DataSourceID="SqlDataSource1" DataTextField="list_name" DataValueField="list_name" Height="800px" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" Width="220px"></asp:ListBox>
+            <td class="auto-style184" aria-multiline="True" style="background-color: #C0C0C0; border-top-style: double; border-right-style: double; border-bottom-style: double;" rowspan="17">
+                <asp:ListBox ID="ListBox1" runat="server" AutoPostBack="True" CssClass="offset-sm-0" DataSourceID="SqlDataSource1" DataTextField="list_name" DataValueField="list_name" Height="394px" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" Width="230px"></asp:ListBox>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
             </td>
         </tr>
         <tr>
-            <td aria-multiline="False" aria-sort="none" class="auto-style60" colspan="1" draggable="true" rowspan="1" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Meta</td>
-            <td class="auto-style96" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td aria-multiline="False" aria-sort="none" class="auto-style176" colspan="1" draggable="true" rowspan="1" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Meta</td>
+            <td class="auto-style172" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="meta_lbl" runat="server"></asp:Label>
             </td>
-            <td class="auto-style75" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">
-                Dex Mod</td>
-            <td class="auto-style63" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="dex_mob_lbl" runat="server" BorderStyle="None"></asp:Label>
-            </td>
         </tr>
         <tr>
-            <td aria-multiline="False" aria-sort="none" class="auto-style58" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Reactions</td>
-            <td class="auto-style97" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td aria-multiline="False" aria-sort="none" class="auto-style178" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Reactions</td>
+            <td class="auto-style179" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="reactions_lbl" runat="server"></asp:Label>
             </td>
-            <td class="auto-style76" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">
-                Con</td>
-            <td class="auto-style57" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="con_lbl" runat="server" BorderStyle="None"></asp:Label>
-            </td>
         </tr>
         <tr>
-            <td class="auto-style4" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">
-                Armor Class</td>
-            <td class="auto-style98" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="armor_lbl" runat="server"></asp:Label>
-            </td>
-            <td style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" class="auto-style77">Con Mob</td>
-            <td class="auto-style94" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="con_mob_lbl" runat="server" BorderStyle="None"></asp:Label>
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style66" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Hit Points</td>
-            <td class="auto-style99" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td aria-multiline="False" aria-sort="none" class="auto-style181" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">HP</td>
+            <td class="auto-style182" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="hit_points_lbl" runat="server"></asp:Label>
             </td>
-            <td style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" class="auto-style78">Intellect</td>
-            <td class="auto-style69" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="intellect_lbl" runat="server" BorderStyle="None"></asp:Label>
+        </tr>
+        <tr>
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Con</td>
+            <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
+                <asp:Label ID="con_lbl" runat="server" BorderStyle="None"></asp:Label>
+                <asp:Label ID="con_mob_lbl" runat="server" BorderStyle="None" ToolTip="Con Mod"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style70" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Speed</td>
-            <td class="auto-style100" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Intellect</td>
+            <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
+                <asp:Label ID="intellect_lbl" runat="server" BorderStyle="None"></asp:Label>
+                <asp:Label ID="intellect_mob_lbl" runat="server" BorderStyle="None" ToolTip="Intellect Mod"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Wisdom</td>
+            <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
+                <asp:Label ID="wisdom_lbl" runat="server" BorderStyle="None"></asp:Label>
+                <asp:Label ID="wisdom_mob_lbl" runat="server" BorderStyle="None" ToolTip="Wisdom Mod"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Dex</td>
+            <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
+                <asp:Label ID="dex_lbl" runat="server" BorderStyle="None"></asp:Label>
+                <asp:Label ID="dex_mob_lbl" runat="server" BorderStyle="None" ToolTip="Dex Mod"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Charisma</td>
+            <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
+                <asp:Label ID="charisma_lbl" runat="server"></asp:Label>
+                <asp:Label ID="charisma_mob_lbl" runat="server" ToolTip="Charisma Mod"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">
+                Armor </td>
+            <td class="auto-style98" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
+                <asp:Label ID="armor_lbl" runat="server"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style66" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Speed</td>
+            <td class="auto-style175" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="speed_lbl" runat="server"></asp:Label>
             </td>
-            <td style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" class="auto-style79">Intellect Mod</td>
-            <td class="auto-style73" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="intellect_mob_lbl" runat="server" BorderStyle="None"></asp:Label>
-            </td>
         </tr>
         <tr>
-            <td class="auto-style26" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Strength</td>
-            <td class="auto-style101" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style132" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Strength</td>
+            <td class="auto-style192" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="str_lbl" runat="server"></asp:Label>
-            </td>
-            <td style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" class="auto-style80">Wisdom</td>
-            <td class="auto-style91" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="wisdom_lbl" runat="server" BorderStyle="None"></asp:Label>
+                <asp:Label ID="str_mob_lbl" runat="server" ToolTip="Str Mod"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style81" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Strength Mod</td>
-            <td class="auto-style102" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="str_mob_lbl" runat="server"></asp:Label>
-            </td>
-            <td class="auto-style83" style="border-style: double; background-color: #999999; font-size: larger; font-weight: bold; text-decoration: underline;">Wisdom Mod</td>
-            <td class="auto-style84" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="wisdom_mob_lbl" runat="server" BorderStyle="None"></asp:Label>
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style28" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Charisma</td>
-            <td class="auto-style103" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="charisma_lbl" runat="server"></asp:Label>
-            </td>
-            <td class="auto-style80" style="border-style: double; background-color: #999999; font-size: larger; font-weight: bold; text-decoration: underline;">Saving Throws</td>
-            <td style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" class="auto-style91">
+            <td class="auto-style139" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Saving Throws</td>
+            <td class="auto-style193" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="saving_lbl" runat="server" BorderStyle="None"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style28" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Charisma Mod</td>
-            <td class="auto-style103" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
-                <asp:Label ID="charisma_mob_lbl" runat="server"></asp:Label>
-            </td>
-            <td class="auto-style80" style="border-style: double; background-color: #999999; font-size: larger; font-weight: bold; text-decoration: underline;">Senses</td>
-            <td style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" class="auto-style91">
+            <td class="auto-style148" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Senses</td>
+            <td class="auto-style194" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="senses_lbl" runat="server" BorderStyle="None"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style22" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Skills</td>
-            <td id="skills_txt" class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" colspan="4">
+            <td class="auto-style141" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Skills</td>
+            <td id="skills_txt" class="auto-style195" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="skills_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style85" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Languages</td>
-            <td class="auto-style86" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" colspan="4">
+            <td class="auto-style142" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Languages</td>
+            <td class="auto-style196" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="language_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style22" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Challenge</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" colspan="4">
+            <td class="auto-style183" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Challenge</td>
+            <td class="auto-style197" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="challenge_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         </table>
     <table class="auto-style42">
         <tr>
-            <td class="auto-style43" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;">Actions</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style156" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Actions</td>
+            <td class="auto-style157" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="action_lbl" runat="server" BorderStyle="None"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style43" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" aria-multiline="False">Legendary Actions</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style156" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;" aria-multiline="False">Legendary Actions</td>
+            <td class="auto-style157" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="legendary_lbl" runat="server" BorderStyle="None"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style43" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" aria-multiline="False">Traits</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style171" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;" aria-multiline="False">Traits</td>
+            <td class="auto-style143" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="traits_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style43" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" aria-multiline="False">Damage Immunities</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style159" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;" aria-multiline="False">Damage Immunities</td>
+            <td class="auto-style160" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="damage_im_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style43" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" aria-multiline="False">Condition Immunities</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style156" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;" aria-multiline="False">Condition Immunities</td>
+            <td class="auto-style157" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="condition_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style43" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" aria-multiline="False">Damage Resistances</td>
-            <td class="auto-style90" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style171" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;" aria-multiline="False">Damage Resistances</td>
+            <td class="auto-style143" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="damage_resist_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style88" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: larger; background-color: #999999;" aria-multiline="False">Damage Vulnerabilities </td>
-            <td class="auto-style89" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style88" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;" aria-multiline="False">Damage Vulnerabilities </td>
+            <td class="auto-style89" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="damage_vul_lbl" runat="server"></asp:Label>
             </td>
         </tr>
