@@ -13,15 +13,6 @@ namespace DnD_Companion {
     public partial class MonsterList {
         
         /// <summary>
-        /// Image1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
-        
-        /// <summary>
         /// name_lbl control.
         /// </summary>
         /// <remarks>
@@ -31,13 +22,13 @@ namespace DnD_Companion {
         protected global::System.Web.UI.WebControls.Label name_lbl;
         
         /// <summary>
-        /// dex_lbl control.
+        /// Image1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label dex_lbl;
+        protected global::System.Web.UI.WebControls.Image Image1;
         
         /// <summary>
         /// ListBox1 control.
@@ -58,15 +49,6 @@ namespace DnD_Companion {
         protected global::System.Web.UI.WebControls.Label meta_lbl;
         
         /// <summary>
-        /// dex_mob_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label dex_mob_lbl;
-        
-        /// <summary>
         /// reactions_lbl control.
         /// </summary>
         /// <remarks>
@@ -74,33 +56,6 @@ namespace DnD_Companion {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label reactions_lbl;
-        
-        /// <summary>
-        /// con_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label con_lbl;
-        
-        /// <summary>
-        /// armor_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label armor_lbl;
-        
-        /// <summary>
-        /// con_mob_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label con_mob_lbl;
         
         /// <summary>
         /// hit_points_lbl control.
@@ -112,6 +67,24 @@ namespace DnD_Companion {
         protected global::System.Web.UI.WebControls.Label hit_points_lbl;
         
         /// <summary>
+        /// con_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label con_lbl;
+        
+        /// <summary>
+        /// con_mob_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label con_mob_lbl;
+        
+        /// <summary>
         /// intellect_lbl control.
         /// </summary>
         /// <remarks>
@@ -119,15 +92,6 @@ namespace DnD_Companion {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label intellect_lbl;
-        
-        /// <summary>
-        /// speed_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label speed_lbl;
         
         /// <summary>
         /// intellect_mob_lbl control.
@@ -139,15 +103,6 @@ namespace DnD_Companion {
         protected global::System.Web.UI.WebControls.Label intellect_mob_lbl;
         
         /// <summary>
-        /// str_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label str_lbl;
-        
-        /// <summary>
         /// wisdom_lbl control.
         /// </summary>
         /// <remarks>
@@ -155,15 +110,6 @@ namespace DnD_Companion {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label wisdom_lbl;
-        
-        /// <summary>
-        /// str_mob_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label str_mob_lbl;
         
         /// <summary>
         /// wisdom_mob_lbl control.
@@ -175,6 +121,24 @@ namespace DnD_Companion {
         protected global::System.Web.UI.WebControls.Label wisdom_mob_lbl;
         
         /// <summary>
+        /// dex_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label dex_lbl;
+        
+        /// <summary>
+        /// dex_mob_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label dex_mob_lbl;
+        
+        /// <summary>
         /// charisma_lbl control.
         /// </summary>
         /// <remarks>
@@ -184,15 +148,6 @@ namespace DnD_Companion {
         protected global::System.Web.UI.WebControls.Label charisma_lbl;
         
         /// <summary>
-        /// saving_lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label saving_lbl;
-        
-        /// <summary>
         /// charisma_mob_lbl control.
         /// </summary>
         /// <remarks>
@@ -200,6 +155,51 @@ namespace DnD_Companion {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label charisma_mob_lbl;
+        
+        /// <summary>
+        /// armor_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label armor_lbl;
+        
+        /// <summary>
+        /// speed_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label speed_lbl;
+        
+        /// <summary>
+        /// str_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label str_lbl;
+        
+        /// <summary>
+        /// str_mob_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label str_mob_lbl;
+        
+        /// <summary>
+        /// saving_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label saving_lbl;
         
         /// <summary>
         /// senses_lbl control.
