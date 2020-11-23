@@ -2,216 +2,220 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <style type="text/css">
-        .auto-style1 {
-            font-weight: bold;
-        }
         .auto-style2 {
             width: 598px;
         }
-        .auto-style4 {
-            height: 31px;
-            width: 194px;
-        }
-        .auto-style7 {
-            height: 32px;
-            width: 194px;
-        }
         .auto-style8 {
-            width: 1195px;
+            width: 1037px;
             margin-right: 0px;
-            height: 993px;
-        }
-        .auto-style10 {
-            height: 34px;
-            width: 194px;
+            height: 806px;
         }
         .auto-style13 {
-            width: 194px;
+            width: 172px;
         }
         .auto-style14 {
             font-weight: bold;
-            width: 194px;
+            width: 172px;
+            height: 13px;
         }
         .auto-style15 {
             width: 1245px;
             height: 1215px;
         }
-        .auto-style16 {
+        .auto-style22 {
             width: 663px;
+            height: 10px;
         }
-        .auto-style17 {
+        .auto-style23 {
+            height: 10px;
+            width: 172px;
+        }
+        .auto-style24 {
+            height: 11px;
+            width: 172px;
+        }
+        .auto-style25 {
             width: 663px;
-            height: 32px;
+            height: 11px;
         }
-        .auto-style18 {
-            width: 194px;
-            height: 4px;
-        }
-        .auto-style19 {
+        .auto-style27 {
             width: 663px;
-            height: 4px;
+            height: 12px;
         }
-        .auto-style20 {
-            width: 194px;
-            height: 225px;
+        .auto-style28 {
+            height: 12px;
+            width: 172px;
+        }
+        .auto-style29 {
+            height: 9px;
+            width: 172px;
+        }
+        .auto-style30 {
+            width: 663px;
+            height: 9px;
+        }
+        .auto-style32 {
+            height: 11px;
+        }
+        .auto-style33 {
+            height: 13px;
+        }
+        .auto-style35 {
+            height: 10px;
+        }
+        .auto-style37 {
+            height: 8px;
+        }
+        .auto-style38 {
+            height: 8px;
+            width: 172px;
+        }
+        .auto-style39 {
+            height: 15px;
+            width: 172px;
+        }
+        .auto-style40 {
+            height: 15px;
+        }
+        .auto-style42 {
+            height: 12px;
         }
     </style>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p class="auto-style1">
-        <br />
-    </p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="auto-style15">
+    <div class="auto-style15">
     &nbsp;<table class="auto-style8">
         <tr>
-            <td aria-multiline="False" aria-sort="none" class="auto-style13" colspan="1" draggable="true" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Name</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td aria-multiline="False" aria-sort="none" class="auto-style23" colspan="1" draggable="true" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Name</td>
+            <td class="auto-style22" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="name_lbl" runat="server"></asp:Label>
             </td> 
             
-            <td class="auto-style2" style="border-style: double double none double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" aria-orientation="horizontal" dir="ltr" draggable="true" rowspan="18">
-                <asp:ListBox ID="ListBox2" runat="server" AutoPostBack="True" CssClass="mt-0" DataSourceID="SqlDataSource1" DataTextField="list_name" DataValueField="list_name" Height="711px" OnSelectedIndexChanged="ListBox2_SelectedIndexChanged" Width="254px" ForeColor="Black"></asp:ListBox> 
+            <td class="auto-style2" style="border-style: double double none double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" aria-orientation="horizontal" dir="ltr" draggable="true" rowspan="9">
+                <asp:ListBox ID="ListBox2" runat="server" AutoPostBack="True" CssClass="mt-0" DataSourceID="SqlDataSource1" DataTextField="list_name" DataValueField="list_name" Height="391px" OnSelectedIndexChanged="ListBox2_SelectedIndexChanged" Width="236px" ForeColor="Black"></asp:ListBox> 
             </td> 
             
         </tr>
         
         <tr>
-            <td class="auto-style4" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">
+            <td class="auto-style24" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">
                 Page</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style25" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="page_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Range</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style28" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Range</td>
+            <td class="auto-style27" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="range_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Components</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style23" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Components</td>
+            <td class="auto-style22" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="components_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style7" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Materials</td>
-            <td class="auto-style17" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style29" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Materials</td>
+            <td class="auto-style30" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="material_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Ritual</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style23" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Ritual</td>
+            <td class="auto-style22" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="ritual_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Duration</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style23" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Duration</td>
+            <td class="auto-style22" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="duration_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Concentration</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style24" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Concentration</td>
+            <td class="auto-style25" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="concentration_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Casting Time</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style28" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Casting Time</td>
+            <td class="auto-style27" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="casting_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Level</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style24" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Level</td>
+            <td class="auto-style32" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="level_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style14" style="border-style: double; background-color: #999999; font-size: larger; font-weight: bold; text-decoration: underline;">School</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style14" style="border-style: double; background-color: #999999; font-size: small; font-weight: bold; text-decoration: underline;">School</td>
+            <td class="auto-style33" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="school_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Class</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style23" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Class</td>
+            <td class="auto-style35" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="class_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Archetype</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style23" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Archetype</td>
+            <td class="auto-style35" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="archetype_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Circles</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style23" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Circles</td>
+            <td class="auto-style35" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="circles_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Domains</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style38" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Domains</td>
+            <td class="auto-style37" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="domains_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style18" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Oaths</td>
-            <td class="auto-style19" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style24" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Oaths</td>
+            <td class="auto-style32" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="oaths_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Patrons</td>
-            <td class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style39" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Patrons</td>
+            <td class="auto-style40" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="patrons_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style13" style="border-style: double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Higher</td>
-            <td id="higher_txt" class="auto-style16" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;">
+            <td class="auto-style28" style="border-style: double; font-weight: bold; background-color: #999999; font-size: small; text-decoration: underline;">Higher</td>
+            <td id="higher_txt" class="auto-style42" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="higher_lbl" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style10" style="border-style: double double none double; font-weight: bold; background-color: #999999; font-size: larger; text-decoration: underline;">Description</td>
-            <td rowspan="9" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700;" colspan="2">
+            <td class="auto-style13" style="border-style: double; font-weight: 700; background-color: #999999; font-size: small; text-decoration: underline;">Description</td>
+            <td rowspan="1" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;" colspan="2">
                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 &nbsp; 
+                <br />
             </td>
         </tr>
-        <tr>
-            <td class="auto-style10" style="border-left-style: double; background-color: #999999;">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style13" style="border-left-style: double; background-color: #999999;">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style13" style="border-left-style: double; background-color: #999999;">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style13" style="border-left-style: double; background-color: #999999;">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style13" style="border-left-style: double; background-color: #999999;">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style20" style="border-left-style: double; border-bottom-style: double; background-color: #999999;"></td>
-        </tr>
-    </table>
+        </table>
     
 
     </div>
 
     <br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False" OnLoad="GridView1_Load" Visible="False">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False" OnLoad="GridView1_Load" Visible="False">
         <Columns>
             <asp:BoundField DataField="list_name" HeaderText="list_name" SortExpression="list_name"></asp:BoundField>
             <asp:BoundField DataField="list_desc" HeaderText="list_desc" SortExpression="list_desc"></asp:BoundField>
@@ -237,4 +241,5 @@
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" SelectCommand="SELECT * FROM [everything_spells] ORDER BY [list_name]"></asp:SqlDataSource>
 </asp:Content>
+
 
