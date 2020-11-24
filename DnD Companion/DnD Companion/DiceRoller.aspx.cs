@@ -143,33 +143,105 @@ namespace DnD_Companion
             var randomnumber = generator.RandomNumberGenerator(1, 101);
             int count = 0;
             int i = 0;
+            int adv;
+            int dis;
+            int num1 = 0;
+            int num2 = 0;
+            int roll1 = 0;
+            int roll2 = 0;
 
             if (TextBox7.Text != "")
             {
+                int NBR2 = Convert.ToInt32(TextBox7.Text.Trim());
                 int NBR1 = Convert.ToInt32(TextBox7.Text.Trim());
                 int[] array1 = new int[NBR1];
+                int[] array2 = new int[NBR2];
 
                 if (Convert.ToInt32(TextBox7.Text.Trim()) < 999)
                 {
-                   // if (RadioButton13.Checked)
-                    foreach (int number in array1)
+                    if (RadioButton13.Checked)
                     {
-                        Convert.ToString(randomnumber);
-                        count++;
-                        TextBox23.Text = Convert.ToString(Convert.ToString((Convert.ToInt32(TextBox23.Text) + (randomnumber))));
-                        TextBox25.Text = TextBox23.Text + "+" + TextBox25.Text ;
+                        if (TextBox15.Text != "")
+                        {
+                            TextBox23.Text = Convert.ToString(Convert.ToInt32(TextBox23.Text) + Convert.ToInt32(TextBox15.Text));
+                        }
+                        else
+                        {
+                            foreach (int number in array1)
+                            {
+                                Convert.ToString(randomnumber);
+                                count++;
+
+                                roll1 = num1 + (Convert.ToInt32(TextBox23.Text) + (randomnumber));
+                            }
+
+                            foreach (int number in array2)
+                            {
+                                Convert.ToString(randomnumber);
+                                count++;
+                                roll2 = num2 + (Convert.ToInt32(TextBox23.Text) + (randomnumber));
+                            }
+
+                            if (num1 >= num2)
+                            {
+                                TextBox23.Text = Convert.ToString(num2);
+                                TextBox25.Text = TextBox25.Text + " " + Convert.ToString(num2);
+                            }
+                            if (num1 <= num2)
+                            {
+                                TextBox23.Text = Convert.ToString(num1);
+                                TextBox25.Text = TextBox25.Text + " " + Convert.ToString(num1);
+                            }
+                        }
                     }
-                    
-                    if (TextBox15.Text != "")
+                    else if (RadioButton14.Checked)
                     {
-                        TextBox23.Text = Convert.ToString(Convert.ToInt32(TextBox23.Text) + Convert.ToInt32(TextBox15.Text));
+                        if (TextBox15.Text != "")
+                        {
+                            TextBox23.Text = Convert.ToString(Convert.ToInt32(TextBox23.Text) + Convert.ToInt32(TextBox15.Text));
+                        }
+                        else
+                        {
+                            foreach (int number in array1)
+                            {
+                                Convert.ToString(randomnumber);
+                                count++;
+
+                                roll1 = num1 + (Convert.ToInt32(TextBox23.Text) + (randomnumber));
+                            }
+
+                            foreach (int number in array2)
+                            {
+                                Convert.ToString(randomnumber);
+                                count++;
+                                roll2 = num2 + (Convert.ToInt32(TextBox23.Text) + (randomnumber));
+                            }
+
+                            if (num1 >= num2)
+                            {
+                                TextBox23.Text = Convert.ToString(num2);
+                                TextBox25.Text = TextBox25.Text + " " + Convert.ToString(num2);
+                            }
+                            if (num1 <= num2)
+                            {
+                                TextBox23.Text = Convert.ToString(num1);
+                                TextBox25.Text = TextBox25.Text + " " + Convert.ToString(num1);
+                            }
+                        }
                     }
-                    else 
+                    else
                     {
-                        
-                    } 
+                        foreach (int number in array1)
+                        {
+                            Convert.ToString(randomnumber);
+                            count++;
+                            TextBox23.Text = Convert.ToString(Convert.ToString((Convert.ToInt32(TextBox23.Text) + (randomnumber))));
+                            TextBox25.Text = TextBox23.Text + "+" + TextBox25.Text;
+                        }
+                    }
+
                 }
-                else 
+                else
                 {
                     TextBox25.Text = TextBox25.Text + " Choose a Smaller Number";
                 }
