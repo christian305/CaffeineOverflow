@@ -22,11 +22,11 @@ namespace DnD_Companion
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            InsertProduct();
+            Insert_item();
 
         }
 
-        int InsertProduct()
+        int Insert_item()
         {
             using (SqlConnection myConnection = new SqlConnection(connection))
             {
