@@ -99,6 +99,10 @@ namespace DnD_Companion
             {
                 reactions_lbl.Text = "N/A";
             }
+            if (legendary_lbl.Text.Length < 2)
+            {
+                legendary_lbl.Text = "N/A";
+            }
         }
 
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)

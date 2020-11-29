@@ -78,6 +78,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="DiceRoller.aspx" />
+    <Content Include="ItemCreate.aspx" />
     <Content Include="ItemList.aspx" />
     <Content Include="MonsterList.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="DiceRoller.aspx.designer.cs">
       <DependentUpon>DiceRoller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ItemCreate.aspx.cs">
+      <DependentUpon>ItemCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ItemCreate.aspx.designer.cs">
+      <DependentUpon>ItemCreate.aspx</DependentUpon>
     </Compile>
     <Compile Include="ItemList.aspx.cs">
       <DependentUpon>ItemList.aspx</DependentUpon>
