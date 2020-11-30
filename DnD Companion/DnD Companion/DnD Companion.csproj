@@ -79,11 +79,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="DiceRoller.aspx" />
-<<<<<<< Updated upstream
     <Content Include="ItemCreate.aspx" />
-=======
     <Content Include="index.html" />
->>>>>>> Stashed changes
     <Content Include="ItemList.aspx" />
     <Content Include="MonsterList.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
