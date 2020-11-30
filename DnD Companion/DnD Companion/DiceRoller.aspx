@@ -275,6 +275,6 @@
         </table>
 
     <div>
-    <!-- #include file="C:\Users\guzma\Documents\GitHub\CaffeineOverflow\DnD Companion\DnD Companion\index.html" -->
+    <!-- #include file="~\index.html" -->
     </div>
 </asp:Content>

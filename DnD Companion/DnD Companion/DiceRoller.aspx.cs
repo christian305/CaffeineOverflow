@@ -570,7 +570,6 @@ namespace DnD_Companion
             TextBox5.Text = "";
             TextBox6.Text = "";
             TextBox7.Text = "";
-            
             TextBox9.Text = ""; 
             TextBox10.Text = "";
             TextBox11.Text = ""; 
@@ -578,7 +577,6 @@ namespace DnD_Companion
             TextBox13.Text = "";
             TextBox14.Text = "";
             TextBox15.Text = ""; 
-            
             TextBox17.Text = "";
             TextBox18.Text = "";
             TextBox19.Text = ""; 
@@ -586,9 +584,7 @@ namespace DnD_Companion
             TextBox21.Text = "";
             TextBox22.Text = "";
             TextBox23.Text = "";
-            
             TextBox25.Text = "";
-            
             TextBox28.Text = "";
             TextBox29.Text = "";
 
@@ -602,11 +598,6 @@ namespace DnD_Companion
         {
             return _random.Next(min, Max);
         }
-    }
-
-    class compare
-    {
-
     }
 
 }
