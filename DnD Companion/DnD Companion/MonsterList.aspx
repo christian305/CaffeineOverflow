@@ -195,10 +195,10 @@
             </td>
         </tr>
         <tr>
-            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Con</td>
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Constitution</td>
             <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="con_lbl" runat="server" BorderStyle="None"></asp:Label>
-                <asp:Label ID="con_mob_lbl" runat="server" BorderStyle="None" ToolTip="Con Mod"></asp:Label>
+                <asp:Label ID="con_mob_lbl" runat="server" BorderStyle="None" ToolTip="Constitution Mod"></asp:Label>
             </td>
         </tr>
         <tr>
@@ -216,10 +216,10 @@
             </td>
         </tr>
         <tr>
-            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Dex</td>
+            <td aria-multiline="False" aria-sort="none" class="auto-style149" colspan="1" draggable="true" style="border-style: double; font-weight: bold; text-decoration: underline; font-size: small; background-color: #999999;">Dexterity</td>
             <td class="auto-style174" style="border-style: double; background-color: #C0C0C0; font-style: italic; font-weight: 700; font-size: small;">
                 <asp:Label ID="dex_lbl" runat="server" BorderStyle="None"></asp:Label>
-                <asp:Label ID="dex_mob_lbl" runat="server" BorderStyle="None" ToolTip="Dex Mod"></asp:Label>
+                <asp:Label ID="dex_mob_lbl" runat="server" BorderStyle="None" ToolTip="Dexterity Mod"></asp:Label>
             </td>
         </tr>
         <tr>

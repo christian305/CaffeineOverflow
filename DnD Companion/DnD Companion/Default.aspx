@@ -90,7 +90,7 @@
             </td>
         </tr>
         <tr>
-            <td>intellingence: <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+            <td>intelligence: <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
             </td>
             <td>Wisdom: <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
             </td>
@@ -279,7 +279,66 @@
         <tr>
             <td>
                 <textarea id="taInventory" cols="20" rows="2"></textarea>
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" PostBackUrl="~/Default.aspx" Text="Save" />
+                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Character_name" DataValueField="Character_name" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" OnDataBound="DropDownList1_DataBound">
+                </asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:items__ %>" SelectCommand="SELECT * FROM [characters] ORDER BY [Character_name]"></asp:SqlDataSource>
+                <br />
+                <asp:TextBox ID="TextBox48" runat="server"></asp:TextBox>
+                
             </td>
         </tr>
     </table>
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Character_name" DataSourceID="SqlDataSource1" Visible="False" Width="4061px">
+                    <Columns>
+                        <asp:BoundField DataField="Character_name" HeaderText="Character_name" ReadOnly="True" SortExpression="Character_name" />
+                        <asp:BoundField DataField="race" HeaderText="race" SortExpression="race" />
+                        <asp:BoundField DataField="XP_points" HeaderText="XP_points" SortExpression="XP_points" />
+                        <asp:BoundField DataField="background" HeaderText="background" SortExpression="background" />
+                        <asp:BoundField DataField="subrace" HeaderText="subrace" SortExpression="subrace" />
+                        <asp:BoundField DataField="class_level" HeaderText="class_level" SortExpression="class_level" />
+                        <asp:BoundField DataField="alignment" HeaderText="alignment" SortExpression="alignment" />
+                        <asp:BoundField DataField="strength" HeaderText="strength" SortExpression="strength" />
+                        <asp:BoundField DataField="dexterity" HeaderText="dexterity" SortExpression="dexterity" />
+                        <asp:BoundField DataField="constitution" HeaderText="constitution" SortExpression="constitution" />
+                        <asp:BoundField DataField="intelligence" HeaderText="intelligence" SortExpression="intelligence" />
+                        <asp:BoundField DataField="wisdom" HeaderText="wisdom" SortExpression="wisdom" />
+                        <asp:BoundField DataField="charisma" HeaderText="charisma" SortExpression="charisma" />
+                        <asp:BoundField DataField="armor_class" HeaderText="armor_class" SortExpression="armor_class" />
+                        <asp:BoundField DataField="initiative" HeaderText="initiative" SortExpression="initiative" />
+                        <asp:BoundField DataField="speed" HeaderText="speed" SortExpression="speed" />
+                        <asp:BoundField DataField="current_hit" HeaderText="current_hit" SortExpression="current_hit" />
+                        <asp:BoundField DataField="temp_hit" HeaderText="temp_hit" SortExpression="temp_hit" />
+                        <asp:BoundField DataField="hit_dice" HeaderText="hit_dice" SortExpression="hit_dice" />
+                        <asp:BoundField DataField="person_traits" HeaderText="person_traits" SortExpression="person_traits" />
+                        <asp:BoundField DataField="ideals" HeaderText="ideals" SortExpression="ideals" />
+                        <asp:BoundField DataField="bonds" HeaderText="bonds" SortExpression="bonds" />
+                        <asp:BoundField DataField="flaws" HeaderText="flaws" SortExpression="flaws" />
+                        <asp:BoundField DataField="strength2" HeaderText="strength2" SortExpression="strength2" />
+                        <asp:BoundField DataField="dexterity2" HeaderText="dexterity2" SortExpression="dexterity2" />
+                        <asp:BoundField DataField="constitution2" HeaderText="constitution2" SortExpression="constitution2" />
+                        <asp:BoundField DataField="intelligence2" HeaderText="intelligence2" SortExpression="intelligence2" />
+                        <asp:BoundField DataField="wisdom2" HeaderText="wisdom2" SortExpression="wisdom2" />
+                        <asp:BoundField DataField="charisma2" HeaderText="charisma2" SortExpression="charisma2" />
+                        <asp:BoundField DataField="acrobatics" HeaderText="acrobatics" SortExpression="acrobatics" />
+                        <asp:BoundField DataField="animal_hand" HeaderText="animal_hand" SortExpression="animal_hand" />
+                        <asp:BoundField DataField="arcana" HeaderText="arcana" SortExpression="arcana" />
+                        <asp:BoundField DataField="athletics" HeaderText="athletics" SortExpression="athletics" />
+                        <asp:BoundField DataField="deception" HeaderText="deception" SortExpression="deception" />
+                        <asp:BoundField DataField="history" HeaderText="history" SortExpression="history" />
+                        <asp:BoundField DataField="insight" HeaderText="insight" SortExpression="insight" />
+                        <asp:BoundField DataField="intimidation" HeaderText="intimidation" SortExpression="intimidation" />
+                        <asp:BoundField DataField="investigation" HeaderText="investigation" SortExpression="investigation" />
+                        <asp:BoundField DataField="medicine" HeaderText="medicine" SortExpression="medicine" />
+                        <asp:BoundField DataField="nature" HeaderText="nature" SortExpression="nature" />
+                        <asp:BoundField DataField="perception" HeaderText="perception" SortExpression="perception" />
+                        <asp:BoundField DataField="performance" HeaderText="performance" SortExpression="performance" />
+                        <asp:BoundField DataField="persuasion" HeaderText="persuasion" SortExpression="persuasion" />
+                        <asp:BoundField DataField="religion" HeaderText="religion" SortExpression="religion" />
+                        <asp:BoundField DataField="sleight_ofhand" HeaderText="sleight_ofhand" SortExpression="sleight_ofhand" />
+                        <asp:BoundField DataField="stealth" HeaderText="stealth" SortExpression="stealth" />
+                        <asp:BoundField DataField="survival" HeaderText="survival" SortExpression="survival" />
+                        <asp:BoundField DataField="blank_space" HeaderText="blank_space" SortExpression="blank_space" />
+                    </Columns>
+                </asp:GridView>
     </asp:Content>
