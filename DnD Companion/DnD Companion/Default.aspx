@@ -276,5 +276,10 @@
                 Survival (wis)<asp:TextBox ID="TextBox47" runat="server"></asp:TextBox>
             </td>
         </tr>
+        <tr>
+            <td>
+                <textarea id="taInventory" cols="20" rows="2"></textarea>
+            </td>
+        </tr>
     </table>
     </asp:Content>
