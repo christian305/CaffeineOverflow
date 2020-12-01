@@ -36,7 +36,7 @@ button,input{overflow:visible}button,input,optgroup,select,textarea{margin:0;fon
             </td>
         </tr>
         <tr>
-            <td class="auto-style3" style="border-style: none double double double; background-color: #C0C0C0;">Item Desription</td>
+            <td class="auto-style3" style="border-style: none double double double; background-color: #C0C0C0;">Item Description</td>
             <td class="auto-style3" style="border-style: none double double double; background-color: #C0C0C0;">
                 <asp:TextBox ID="TextBox3" runat="server" Height="97px" TextMode="MultiLine" Width="241px"></asp:TextBox>
             </td>
