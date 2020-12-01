@@ -1,10 +1,7 @@
 # CaffeineOverflow
 CS 478 Project (Caffeine Overflow)
-This is a TEST please help me 
 
+Welcome to the Caffeine Overflow page. We are are a group of college students developing an application that helps making tabletop gaming easier.
 
-Deshai was here. 10/14/2020 test
+Our goal is to create a character generator and interactive character sheet.
 
-Lucas was also here.
-
-Zeke was here.
