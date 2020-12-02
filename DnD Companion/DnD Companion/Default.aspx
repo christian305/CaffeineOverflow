@@ -54,6 +54,16 @@
 
     <table border="1" class="table-responsive-sm center">
         <tr>
+            <td>
+                 <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Character_name" DataValueField="Character_name" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" OnDataBound="DropDownList1_DataBound">
+                </asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:items__ %>" SelectCommand="SELECT * FROM [characters] ORDER BY [Character_name]"></asp:SqlDataSource>
+            </td>
+            <td>
+                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" PostBackUrl="~/Default.aspx" Text="Save" />
+            </td>
+        </tr>
+        <tr>
             <td colspan="3" style="text-align: center">Character Name:
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             </td>
@@ -278,11 +288,8 @@
         </tr>
         <tr>
             <td>
-                <textarea id="taInventory" cols="20" rows="2"></textarea>
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" PostBackUrl="~/Default.aspx" Text="Save" />
-                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Character_name" DataValueField="Character_name" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" OnDataBound="DropDownList1_DataBound">
-                </asp:DropDownList>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:items__ %>" SelectCommand="SELECT * FROM [characters] ORDER BY [Character_name]"></asp:SqlDataSource>
+                
+               
                 <br />
                 <asp:TextBox ID="TextBox48" runat="server"></asp:TextBox>
                 
