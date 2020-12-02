@@ -111,7 +111,6 @@
     <div>
         &ensp;
     </div>
-
     <table border="1" class="table-responsive-sm center">
         <tr>
             <td>Armor Class:
@@ -137,30 +136,7 @@
         </tr>
     </table>
         
-    <div>
-        &ensp;
-    </div>
-
-    <table border="1" class="table-responsive-sm center">
-        <tr>
-            <td class="auto-style8">Personality Traits:&nbsp;
-                <asp:TextBox ID="TextBox20" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>Ideals:&nbsp; <asp:TextBox ID="TextBox21" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>Bonds: <asp:TextBox ID="TextBox22" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>Flaws:&nbsp; <asp:TextBox ID="TextBox23" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-    </table>
-
+    
     <div>
         &ensp;
     </div>
@@ -168,7 +144,7 @@
     <table border="1" class="table-responsive-sm center">
         <tr>
             <td>
-                <asp:RadioButton ID="RadioButton1" runat="server" />
+                <asp:RadioButton ID="RadioButton1" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" />
                 Strength:
                 <asp:TextBox ID="TextBox24" runat="server"></asp:TextBox>
             </td>
@@ -348,4 +324,29 @@
                         <asp:BoundField DataField="blank_space" HeaderText="blank_space" SortExpression="blank_space" />
                     </Columns>
                 </asp:GridView>
+    <div>
+        &ensp;
+    </div>
+
+
+    <table border="1" class="table-responsive-sm center">
+        <tr>
+            <td class="auto-style8">Personality Traits:&nbsp;
+                <asp:TextBox ID="TextBox20" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>Ideals:&nbsp; <asp:TextBox ID="TextBox21" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>Bonds: <asp:TextBox ID="TextBox22" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>Flaws:&nbsp; <asp:TextBox ID="TextBox23" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+    </table>
+
     </asp:Content>

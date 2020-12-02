@@ -107,35 +107,38 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    Dice Roller<table class="newStyle1">
+    
+    <div style="text-align:center;">
+    <div style="width:50%; margin: 0 auto; text-align:left;">
+        Dice Roller<table class="align-content-lg-center" style="width:100%">
         <tr>
-            <td class="auto-style7" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">DICE</td>
-            <td class="auto-style8" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FFFF00;">NBR</td>
-            <td class="auto-style42" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF00FF;">+ -</td>
-            <td class="auto-style10" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #00FFFF;">Modifier</td>
-            <td class="auto-style11" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">Roll</td>
-            <td class="auto-style25" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FFFFFF;">Result</td>
+            <td class="auto-style7" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 20px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">DICE</td>
+            <td class="auto-style8" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 20px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">NBR</td>
+            <td class="auto-style42" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 20px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">+ -</td>
+            <td class="auto-style10" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 20px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">Modifier</td>
+            <td class="auto-style11" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 20px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">Roll</td>
+            <td class="auto-style25" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #000000;">Result</td>
             <td rowspan="8" class="auto-style29">
                 <asp:TextBox ID="TextBox25" runat="server" Height="305px" Width="237px" TextMode="MultiLine">These are the results: </asp:TextBox>
-                <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" Text="reset" Width="242px" />
                 <asp:TextBox ID="TextBox28" runat="server" Visible="False"></asp:TextBox>
+                <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" Text="reset" Width="242px" Font-Bold="True" />
                 <asp:TextBox ID="TextBox29" runat="server" Visible="False"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style47" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d4</td>
+            <td class="auto-style47" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d4</td>
             <td class="auto-style36"><asp:TextBox ID="TextBox1" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" OnTextChanged="TextBox1_TextChanged" BorderStyle="None" Width="90px"></asp:TextBox></td>
             <td class="auto-style48">
                 <asp:RadioButton ID="RadioButton1" runat="server" AutoPostBack="True" GroupName="1" />
                 <asp:RadioButton ID="RadioButton2" runat="server" AutoPostBack="True" GroupName="1" />
             </td>
             <td class="auto-style49"><asp:TextBox ID="TextBox9" runat="server"  onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" MaxLength="3" BorderStyle="None" Width="90px"></asp:TextBox></td>
-            <td class="auto-style50"><asp:Button ID="Button1" runat="server" Text="ROLL" OnClick="Button1_Click" Width="70px" /></td>
+            <td class="auto-style50"><asp:Button ID="Button1" runat="server" Text="ROLL" OnClick="Button1_Click" Width="70px" Font-Bold="True" /></td>
             <td class="auto-style51"><asp:TextBox ID="TextBox17" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox></td>
         </tr>
 
         <tr>
-            <td class="auto-style14" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d6</td>
+            <td class="auto-style14" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d6</td>
             <td class="auto-style15">
                 <asp:TextBox ID="TextBox2" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" MaxLength="3" BorderStyle="None" Width="90px"></asp:TextBox>
 
@@ -148,14 +151,14 @@
                 <asp:TextBox ID="TextBox10" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" MaxLength="3" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
             <td class="auto-style18">
-                <asp:Button ID="Button2" runat="server" Text="ROLL" OnClick="Button2_Click" Width="70px"/>
+                <asp:Button ID="Button2" runat="server" Text="ROLL" OnClick="Button2_Click" Width="70px" Font-Bold="True"/>
             </td>
             <td class="auto-style28">
                 <asp:TextBox ID="TextBox18" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style7" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d8</td>
+            <td class="auto-style7" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d8</td>
             <td class="auto-style8">
                 <asp:TextBox ID="TextBox3" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
@@ -167,14 +170,14 @@
                 <asp:TextBox ID="TextBox11" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" MaxLength="3" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
             <td class="auto-style11">
-                <asp:Button ID="Button3" runat="server" Text="ROLL" OnClick="Button3_Click" Width="70px" />
+                <asp:Button ID="Button3" runat="server" Text="ROLL" OnClick="Button3_Click" Width="70px" Font-Bold="True" />
             </td>
             <td class="auto-style25">
                 <asp:TextBox ID="TextBox19" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style20" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d10</td>
+            <td class="auto-style20" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d10</td>
             <td class="auto-style21">
                 <asp:TextBox ID="TextBox4" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
@@ -186,14 +189,14 @@
                 <asp:TextBox ID="TextBox12" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
             <td class="auto-style24">
-                <asp:Button ID="Button4" runat="server" Text="ROLL" OnClick="Button4_Click" Width="70px" />
+                <asp:Button ID="Button4" runat="server" Text="ROLL" OnClick="Button4_Click" Width="70px" Font-Bold="True" />
             </td>
             <td class="auto-style27">
                 <asp:TextBox ID="TextBox20" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style14" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d12</td>
+            <td class="auto-style14" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d12</td>
             <td class="auto-style15">
                 <asp:TextBox ID="TextBox5" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
@@ -205,14 +208,14 @@
                 <asp:TextBox ID="TextBox13" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
             <td class="auto-style18">
-                <asp:Button ID="Button5" runat="server" Text="ROLL" OnClick="Button5_Click" Width="70px" />
+                <asp:Button ID="Button5" runat="server" Text="ROLL" OnClick="Button5_Click" Width="70px" Font-Bold="True" />
             </td>
             <td class="auto-style28">
                 <asp:TextBox ID="TextBox21" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style14" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d20</td>
+            <td class="auto-style14" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d20</td>
             <td class="auto-style15">
                 <asp:TextBox ID="TextBox6" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
@@ -224,14 +227,14 @@
                 <asp:TextBox ID="TextBox14" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
             <td class="auto-style18">
-                <asp:Button ID="Button6" runat="server" Text="ROLL" OnClick="Button6_Click" Width="70px" />
+                <asp:Button ID="Button6" runat="server" Text="ROLL" OnClick="Button6_Click" Width="70px" Font-Bold="True" />
             </td>
             <td class="auto-style28">
                 <asp:TextBox ID="TextBox22" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style20" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 19px; font-weight: bold; font-style: italic; text-transform: none; color: #FF0000;">d100</td>
+            <td class="auto-style20" style="text-align: center; font-family: 'times New Roman', Times, serif; font-size: 28px; font-weight: bold; font-style: italic; text-transform: none; color: #003300;">d100</td>
             <td class="auto-style21">
                 <asp:TextBox ID="TextBox7" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
@@ -243,14 +246,15 @@
                 <asp:TextBox ID="TextBox15" runat="server" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" BorderStyle="None" Width="90px"></asp:TextBox>
             </td>
             <td class="auto-style24">
-                <asp:Button ID="Button7" runat="server" Text="ROLL" OnClick="Button7_Click" Width="70px" />
+                <asp:Button ID="Button7" runat="server" Text="ROLL" OnClick="Button7_Click" Width="70px" Font-Bold="True" />
             </td>
             <td class="auto-style27">
                 <asp:TextBox ID="TextBox23" runat="server" BorderStyle="None" ReadOnly="True" onkeydown = "return (!((event.keyCode>=65 && event.keyCode <= 95) || event.keyCode >= 106 || (event.keyCode >= 48 && event.keyCode <= 57 && isNaN(event.key))) && event.keyCode!=32);" Width="90px"></asp:TextBox>
             </td>
         </tr>
         </table>
-
+    </div>
+    </div>
     <div>
     <!-- #include file="~\index.html" -->
     </div>

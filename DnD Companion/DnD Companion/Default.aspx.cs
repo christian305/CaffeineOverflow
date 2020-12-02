@@ -281,5 +281,11 @@ namespace DnD_Companion
             //TextBox48.Text = DropDownList1.Items.Count.ToString();
 
         }
+
+        bool isChecked = false;
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            isChecked = RadioButton1.Checked;
+        }
     }
 }

@@ -20,7 +20,7 @@ button,input{overflow:visible}button,input,optgroup,select,textarea{margin:0;fon
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" class="center" runat="server">
         <div class="auto-style2">
     <table class="auto-style7">
         <tr>

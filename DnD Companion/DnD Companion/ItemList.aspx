@@ -37,7 +37,7 @@
 </asp:GridView>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <table class="auto-style6">
         <tr>
-            <td class="auto-style3" style="border-style: double; font-weight: 700; background-color: #999999; font-size: medium; ">
+            <td class="auto-style3 " style="border-style: double; font-weight: 700; background-color: #999999; font-size: medium; ">
     <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
             </td>
             <td rowspan="1" style="border-style: double; background-color: #999999; font-weight: 700; font-size: medium;" class="auto-style8">
