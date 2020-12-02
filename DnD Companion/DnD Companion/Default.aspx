@@ -61,6 +61,11 @@
             </td>
             <td>
                  <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" PostBackUrl="~/Default.aspx" Text="Save" />
+                 <asp:Button ID="clearBtn" runat="server" OnClick="clearBtn_Click" Text="Clear"  />
+                 <asp:Button ID="deleteBtn" runat="server" OnClick="deleteBtn_Click" Text="Delete" PostBackUrl="~/character_delete.aspx" />
+            </td>
+            <td>
+                <asp:Label ID="Label2" runat="server" ForeColor="Blue"></asp:Label>
             </td>
         </tr>
         <tr>
@@ -71,7 +76,7 @@
         <tr>
             <td class="auto-style5">Race:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             </td>
-            <td class="auto-style1">Experience Point:<asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+            <td class="auto-style1">Experience Point:<asp:TextBox ID="TextBox6" runat="server" AutoPostBack="True" OnTextChanged="TextBox6_TextChanged"></asp:TextBox>
             </td>
             <td class="auto-style3">Background:<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
             </td>

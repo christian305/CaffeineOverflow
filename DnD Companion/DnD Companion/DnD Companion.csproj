@@ -71,6 +71,7 @@
   <ItemGroup>
     <Content Include="app.js" />
     <Content Include="CharacterGeneration.aspx" />
+    <Content Include="character_delete.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="CharacterGeneration.aspx.designer.cs">
       <DependentUpon>CharacterGeneration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="character_delete.aspx.cs">
+      <DependentUpon>character_delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="character_delete.aspx.designer.cs">
+      <DependentUpon>character_delete.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
