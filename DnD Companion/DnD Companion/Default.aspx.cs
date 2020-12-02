@@ -119,7 +119,9 @@ namespace DnD_Companion
                 MyCommand2.Parameters.AddWithValue("@survival", TextBox47.Text);
                 MyCommand2.Parameters.AddWithValue("@blank", TextBox48.Text);
                 myConnection.Open();
+                Label2.Text = "Character Created";
                 return MyCommand2.ExecuteNonQuery();
+                
             }
         }
 
@@ -193,6 +195,7 @@ namespace DnD_Companion
                 MyCommand2.Parameters.AddWithValue("@survival", TextBox47.Text);
                 MyCommand2.Parameters.AddWithValue("@blank", TextBox48.Text);
                 myConnection.Open();
+                Label2.Text = "Character updated";
                 return MyCommand2.ExecuteNonQuery();
 
             }
@@ -204,6 +207,7 @@ namespace DnD_Companion
         {
             temp = DropDownList1.SelectedIndex;
             GridView1.SelectedIndex = DropDownList1.SelectedIndex;
+            Label2.Text = "";
             display();
         }
 
@@ -286,6 +290,42 @@ namespace DnD_Companion
         protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             isChecked = RadioButton1.Checked;
+        }
+
+       
+
+        protected void TextBox6_TextChanged(object sender, EventArgs e)
+        {
+            TextBox txt = sender as TextBox;
+            //string temp = txt.Text;
+            //Label2.Text = temp;
+            txt.Font.Bold = true;
+        }
+
+        protected void clearBtn_Click(object sender, EventArgs e)
+        {
+            
+            string name = TextBox1.Text;
+            this.clearer(this);
+            TextBox1.Text = name;
+        }
+
+        protected void deleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearer(Control boxes)
+        {
+            foreach (Control c in boxes.Controls)
+            {
+                var box = c as TextBox;
+                if (box != null)
+                {
+                    box.Text = string.Empty;
+                }
+                this.clearer(c);
+            }
         }
     }
 }
